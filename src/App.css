@@ -1,0 +1,13 @@
+*{
+       padding: 0;
+       border: none;
+       margin: 0;
+}
+
+.Digit{
+       display: flex;
+       height: 90vh;
+       align-items: center;
+       justify-content: center;
+       font-size: 3rem;
+};

@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #00abc9;
+    height: 45px;
+}
+.topicon{
+    font-size: 10px;
+    color:white;
+    background-color: #006779;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.topicon:hover{
+    background-color: #eeb013;
+}
+
+.topicons{
+    color: white;
+    padding-left: 20px;
+    font-size: 10px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.topicons:hover{
+    color: #eef103;
+}
+
+.icone{
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+    padding-left: 80%;
+}

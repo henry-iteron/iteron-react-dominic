@@ -1,0 +1,823 @@
+.top{
+    width: 100%;
+}
+
+.hometop{
+    padding-bottom: 30px;
+    box-shadow:0px 0px 0px #565d60;
+}
+
+/* award and sponser */
+.award-name{
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: 200;
+
+}
+h4{
+    font-size: 24px;
+    letter-spacing:2px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+
+.award{
+    padding-top: 30px;
+    padding-bottom: 120px;
+    box-shadow:0px 2px 30px #565d60;
+}
+
+.cnt{
+    margin-top: 30px;
+    padding:0 80px;
+}
+
+.scroll-img{
+    padding: 0px 20px;
+}
+
+.box-border{
+    display: flex;
+    align-items: center;
+}
+
+
+/* expert - container */
+
+h5{
+    font-family: "Montserrat";
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+
+.s1{
+    color: #767676;
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height:27px;
+}
+
+.mobile-solution{
+    background-color: #00abc9;
+    width: 33.333%;
+    height: 250px;
+    font-family: "Montserrat";
+    border-radius: 5px;
+}
+
+h6{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.read{
+    border-radius: none;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.mobile-read{
+    padding:15px;
+}
+
+button{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    font-family: "Montserrat";
+    border-radius:5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.container{
+    display: flex;
+    gap: 90px;
+    padding: 50px 80px;
+}
+.AI-solution{
+    background-color: black;
+    width:30%;
+    height: 200px;
+    font-family: "Montserrat";
+    border-radius: 5px;
+}
+
+h6{
+    margin: 0;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.AI-read{
+    padding:15px;
+}
+.reading{
+    border-radius: none;
+    text-align: center;
+    padding-top: 40px;
+}
+.AI{
+    color: white;
+    background-color: #00abc9;
+    padding: 10px 20px;
+    font-family: "Montserrat";
+    border-radius:5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.AI-container{
+    display: flex;
+    gap: 40px;
+    padding: 10px 70px;
+    padding-top: 40px;
+}
+
+
+.Industry-solution{
+    position: absolute;
+    right: 230px;
+}
+
+.BlockChain{
+    margin-top: 60px;
+}
+
+
+/* count box */
+
+.total-count{
+    padding-top: 30px;
+}
+
+.count-box{
+    background-color: #3bbfd6;
+    width: 100%;
+    height: 300px;
+}
+
+.storage{
+    padding: 30px 90px;
+
+}
+
+.count{
+    background-color: #00abc9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 250px;
+}
+
+.number{
+    color: white;
+    font-family: lato;
+    font-size: 80px;
+}
+
+.name{
+    color: white;
+    font-family: lato;
+    font-size: 16px;
+    text-align: center;
+}
+
+.satis{
+    text-align: center;
+}
+
+.global{
+    text-align: center;
+}
+
+.project{
+    text-align: center;
+}
+
+.location{
+    text-align: center;
+}
+
+/* VALUES AND WORKING MODELS */
+
+.working-model{
+    padding-top: 80px;
+}
+
+.title{
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-bottom: 40px;
+}
+
+
+.tech-team{
+    width: 25%;
+}
+
+.tech-iteam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.users-logo{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    outline-width: 4px;
+    outline-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.users{
+    font-size: 50px;
+    color: #00c2cf;
+}
+
+.tech-name{
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight:300;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tech-para{
+    font-family: lato;
+    color: #767676;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.value-1{
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.outer-box{
+       padding: 0px 50px;
+}
+
+/*applicatons scroll*/
+
+.sponser-scroll{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.background{
+     background-color:#3bbfd6;
+     height: 300px;
+}
+
+.spons-title{
+    color: white;
+    text-align: center;
+    font-family:Montserrat ;
+    align-content: center;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.ap-img{
+    width:170px;
+    padding: 0 5px;
+}
+
+.application-img{
+    padding-top: 30px;
+}
+
+.ap-box{
+    padding: 20px 70px;
+}
+
+
+/* working-approch*/
+
+
+.ap-name{
+    font-family:Montserrat ;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.s2{
+   display: flex;
+   justify-content: center;
+    color: #888888;
+    font-style: italic;
+    font-family: lato;
+    font-size: 15px;
+}
+
+.img-container{
+    display: flex;
+    gap: 15px;
+}
+.img-container{
+    transition:all 0.30s linear;
+}
+
+.list{
+    padding-top: 30px;
+    color: #666666;
+    font-size: 14px;
+    line-height:40px;
+    text-decoration: none;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list li::before{
+    content: "\f00c";
+    font-family: fontawesome;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    color: #00abc9;
+    padding-right: 10px;    
+}
+
+.iteam-toggle h2{
+    background: #e4e4e4 ;
+    color: #444444;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 80px;
+    padding: 15px 30px;
+}
+
+.iteam-toggle h2::after{
+    color: #444;
+    content: "\f067";
+    font-family: fontawesome;
+    font-size: 15px;
+    width: 30px;
+    position: absolute;
+    right: 90px;
+}
+
+.contant-toggle{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.toggle-para{
+    color: #565d60;
+    font-family: lato;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+}
+
+.approch-container{
+    display: flex;
+    padding: 50px 80px;
+    gap: 40px;
+}
+
+
+/* cost model */
+
+.cost-table{
+    background: #f2f2f2  url(https://www.iterontech.com/wp-content/uploads/2017/01/pricetable-bg-321x262_c.png) no-repeat scroll center top  /100% auto ;
+    width: 33.3333%;
+    border: 6px solid #fff;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    z-index:1;
+    transition: all 0.25s linear;
+}
+.cost-table:hover{
+    border: 6px #00abc9 solid ;
+}
+
+
+.cost-table::before{
+    background: #e4e4e4 none repeat scroll 0 0 ;
+    content: " ";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.499;
+}
+
+.cost-name{
+    padding-top: 80px;
+}
+
+.cost-table h3{
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.cost-name h3 i{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.cost-name strong{
+    color: #121212;
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cost-container{
+    text-align: center;
+    padding: 30px 40px;
+}
+
+.cost-container ul{
+    background: #fff none repeat scroll 0 0;
+    border-radius: 6px;
+    list-style: none;
+    padding: 20px 20px 10px;
+    z-index: 1;
+}
+
+.cost-container li{
+    color: #5e5f5f;
+    font-family: lato;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    line-height: 26px;
+    padding: 11px 0px;
+}
+
+.model-btn button{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 14px 25px;
+    border-radius: 30px;
+}
+
+.model-btn{
+    padding: 10px;
+    padding-bottom: 40px;
+    z-index: 1;
+}
+
+.cost-1{
+    display: flex;
+    padding: 50px 80px;
+    gap: 30px;
+}
+
+
+/* project strcture */
+
+.dark-toogle{
+    background-color: #000;
+    
+}
+
+.pro-container{
+    display: flex;
+    padding: 0px 70px;
+ 
+}
+
+.str-img{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.str-img img{
+    max-width: 90%;
+}
+
+.project-img{
+    padding-top: 70px;
+}
+
+.project-contant{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.project-name h2{
+    color: white;
+    font-family: Abril Fatface;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    padding-bottom:20px;
+}
+
+.down{
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.skill-name{
+    padding-top: 15px;
+    color:white;
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.skillset{
+    padding-bottom: 15px;
+}
+
+.skillset .progress{
+    background: #838383 none repeat scroll 0 0;
+    width: 100%;
+    border-radius: 20px;
+    height: 20px;
+}
+
+.progress-bar{
+    background-color: #00abc9;
+    width: 10%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.progress-bar-devlop{
+    background-color: #00abc9;
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.progress-bar-devops{
+    background-color: #00abc9;
+    width: 5%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* request call */
+
+.request-form{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    
+}
+
+.request-call{
+    background: transparent url(https://www.iterontech.com/wp-content/themes/provide/partial/images/resource/parallax4.jpg) no-repeat scroll 0 0 / cover ;
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 450px;
+    z-index: 1;
+}
+
+
+.request-call::before{
+    content: "";
+    background: #151515 none repeat scroll 0 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+.req-img img{
+    position:absolute;
+    bottom: 0;
+   padding-left: 150px;
+}
+
+
+.call-form{
+    padding-top: 60px;
+    padding-right:100px;
+    float: right;
+    width: 45%;
+}
+
+
+.call-title h3{
+    color: white;
+    font-family: montserrat;
+    font-size:40px;
+    font-weight:600;
+    line-height: 30px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.call-title i{
+    color: #00abc9;
+    font-size:40px;
+}
+
+
+.call-title span{
+    color: #e4e4e4;
+    font-family: lato;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+.first-row{
+    display: flex;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.second-row{
+    display: flex;
+    padding-top:30px;
+    gap: 80px;
+}
+
+input{
+    background: #8c8c8c none repeat scroll 0 0;
+    font-family: montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 30px;
+    width: 100%;
+    height: 28px;
+    color: white;
+}
+
+select{
+    background-color: #8c8c8c;
+    color: white;
+    padding: 10px 67px;
+    border-radius: 30px;
+    width: 100%;
+    height: 48px;
+    font-family: montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+option{
+    cursor: pointer;
+    font-family: lato;
+    font-size: 15px;
+    padding: 0px 2px 5px;
+}
+
+option .pd{
+ padding: 20px;
+}
+
+.call-btn{
+    padding-top: 30px;
+}
+
+.call-btn button{
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #00abc9;
+    padding: 12px 35px;
+    border-radius: 30px;
+    border:0 none;
+}
+
+/* footer*/
+
+footer{
+   padding-top: 10px;
+}
+
+.footer-background{
+    background-color: #191919;
+    width: 100%;
+}
+
+.footer-content{
+    padding: 10px 120px;
+    display: flex; 
+}
+
+.asia{
+    width: 25%;
+}
+.Europe{
+    width: 25%;
+}
+.Australia{
+    width: 25%;
+}
+.usa{
+    width: 25%;
+}
+
+
+.country-name h4{
+    color: white;
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 15px;
+    letter-spacing: 0;
+    padding-left: 0;
+    position: relative;
+}
+
+.country-name h4::before{
+    background-color: #eeb013;
+    content: "";
+    height: 2px;
+    width: 27px;
+    position: absolute;
+    bottom: 0;
+}
+
+.coun-para p{
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.srilanka-para p{
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+
+.bottom-strip{
+    background-color: #0c0c0c;
+    padding: 25px 0px;
+    width: 100%;
+}
+.bottom-para{
+    padding: 0px 120px;
+}
+
+.bottom-para .s3{
+    color: #7b7b7b;
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding-right:50%;
+    cursor: pointer;
+}
+
+.bottom-para .s4{
+    color: #7b7b7b;
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+};

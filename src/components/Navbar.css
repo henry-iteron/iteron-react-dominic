@@ -1,0 +1,143 @@
+.navbardown{
+    background-color: #00abc9;
+    width: 100%;
+    height: 70px;
+    align-content: center;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+.contant{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+
+.digitize{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Montserrat";
+    display: flex;
+    padding: 25px;
+}
+
+.digitize:hover{
+    color:#eeb013;
+    border-bottom: 2px solid #eeb013;
+}
+
+.cloud{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Montserrat";
+    display: flex;
+    padding: 25px;
+}
+
+.cloud:hover{
+    color: #eeb013;
+    border-bottom: 2px solid #eeb013;
+}
+
+.consult{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Montserrat";
+    display: flex;
+    padding: 25px;
+}
+
+.consult:hover{
+    color: #eeb013;
+    border-bottom: 2px solid #eeb013;
+}
+
+.portfolio{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Montserrat";
+    display: flex;
+    padding: 25px;
+}
+
+.portfolio:hover{
+    color: #eeb013;
+    border-bottom: 2px solid #eeb013;
+}
+
+.careers{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Montserrat";
+    display: flex;
+    padding: 25px;
+}
+
+.careers:hover{
+    color: #eeb013;
+    border-bottom: 2px solid #eeb013;
+}
+
+.newsroom{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Montserrat";
+    display: flex;
+    padding: 25px;
+}
+
+.newsroom:hover{
+    color: #eeb013;
+    border-bottom: 2px solid #eeb013;
+}
+
+.products{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Montserrat";
+    display: flex;
+    padding: 25px;
+}
+
+.products:hover{
+    color: #eeb013;
+    border-bottom: 2px solid #eeb013;
+}
+
+.elixir{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Montserrat";
+    display: flex;
+    padding: 25px;
+}
+
+.elixir:hover{
+    color: #eeb013;
+    border-bottom: 2px solid #eeb013;
+}
+
+.contactus{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Montserrat";
+    display: flex;
+    padding: 25px;
+}
+
+.contactus:hover{
+    color: #eeb013;
+    border-bottom: 2px solid #eeb013;
+};
