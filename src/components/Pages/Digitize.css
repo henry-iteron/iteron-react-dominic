@@ -124,4 +124,47 @@ h6{
     font-size: 15px;
     letter-spacing: 0.7px;
     line-height: 27px;
-};
+}
+
+/* count */
+
+.satis-client{
+       display: flex;
+}
+
+.count-contant{
+    padding-left: 40px;
+    width: 100%;
+}
+
+.count-number{
+    color: white;
+    font-family: montserrat;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 40px;
+    width: 100%;
+}
+
+.count-name{
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+
+/* dizit contant*/
+
+.dizit-container{
+    padding: 20px 80px;
+}
+
+
+.dizit-para{
+    font-family: lato;
+    color: #797979;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+}

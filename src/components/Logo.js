@@ -8,7 +8,7 @@ export const Logo = () => {
             <Link to="/">
             <img className='image' src='https://media.designrush.com/agencies/163563/conversions/Iteron-Technologies-logo-profile.jpg' alt='' ></img>
             </Link>
-            <div className='contact'>
+            <div className='logo-contact'>
                 <i className="clock fa-regular fa-clock"></i>
                 <div className='details'>
                     <p>Contact Time</p>

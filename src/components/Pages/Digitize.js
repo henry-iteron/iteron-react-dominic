@@ -77,6 +77,64 @@ export default function Digitize() {
         </div>
         </div>
       </section>
+
+      <section className="total-count">
+        <div className="count-box">
+          <div className="storage">
+            <div className="count">
+              <div className="satis-client">
+                <div className="satis-img">
+                 <img src="https://www.iterontech.com/wp-content/uploads/2017/01/counter-icon1.png" alt=""></img>          
+                </div>
+                <div className="count-contant">
+                <strong className="count-number">62</strong>
+                <br></br>
+                <span className="count-name">Statisfied Clients</span>
+              </div>
+              </div>
+              <div className="satis-client">
+                <div className="satis-img">
+                 <img src="	https://www.iterontech.com/wp-content/uploads/2017/01/counter-icon2.png" alt=""></img>          
+                </div>
+                <div className="count-contant">
+                <strong className="count-number">118</strong>
+                <br></br>
+                <span className="count-name">Web & Mobile Experts</span>
+              </div>
+              </div>
+              <div className="satis-client">
+                <div className="satis-img">
+                 <img src="	https://www.iterontech.com/wp-content/uploads/2017/01/counter-icon4.png" alt=""></img>          
+                </div>
+                <div className="count-contant">
+                <strong className="count-number">80</strong>
+                <br></br>
+                <span className="count-name">+ Project</span>
+              </div>
+              </div>
+              <div className="satis-client">
+                <div className="satis-img">
+                 <img src="https://www.iterontech.com/wp-content/uploads/2017/01/counter-icon1.png" alt=""></img>          
+                </div>
+                <div className="count-contant">
+                <strong className="count-number">20</strong>
+                <br></br>
+                <span className="count-name">Industries Expertise</span>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="introduction-dizitise">
+           <div className="dizit-container">
+              <p className="dizit-para">
+              We are experts in building&nbsp;Applications&nbsp;with open-source frameworks, open-source software–as-a-service platforms and custom developments. We help the customer’s business reach to market in short span of time using our experience in utilizing the best available technology platform. We have excellent experience to understand your business requirements and business model better, so to built a cost effective solutions.
+              </p>
+           </div>
+      </section>
+
     </>
   );
 }
