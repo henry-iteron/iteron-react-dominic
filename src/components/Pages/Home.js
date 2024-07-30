@@ -123,7 +123,7 @@ export const Home = () => {
               </div>
               <div className="read">
                 <button>
-                  <i class="fa-solid fa-book"></i> Read more
+                  <i class="fa-solid fa-book"></i> Read more...
                 </button>
               </div>
             </div>
