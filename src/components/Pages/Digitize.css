@@ -168,3 +168,185 @@ h6{
     letter-spacing: 0.7px;
     line-height: 27px;
 }
+
+/*code logo */
+
+.code-logo{
+    display: flex;
+    padding: 20px 70px;
+    gap: 10px;
+}
+
+.row1{
+    width: 16.66666667%;
+}
+
+.banner{
+    display: inline-block;
+    max-width: 100%;
+}
+
+
+.banner img{
+     width:175px;
+}
+
+.row2{
+    width: 16.66666667%;
+}
+
+.banner2{
+    display: inline-block;
+    max-width: 100%;
+}
+
+.banner2 img{
+    width:175px;
+    padding-bottom: 10px;
+}
+
+.banner2-img1{
+    padding-top:20px;
+}
+
+.row3{
+    width: 16.66666667%;
+}
+
+.banner3{
+    display: inline-block;
+    max-width: 100%;
+}
+
+.banner3-img1{
+    width: 170px;
+    padding-bottom: 10px;
+}
+
+.banner3-img2{
+    width: 175px;
+    padding-top:10px;
+}
+
+.banner3-img3{
+    width:150px;
+    padding-top: 15px;
+}
+
+.row4{
+    width: 16.66666667%;
+}
+
+.banner4{
+    display: inline-block;
+    max-width: 100%;
+   
+}
+
+.banner4-img1{
+    position: relative;
+    left:40px;
+    padding-top: 30px;
+}
+
+.banner4-img2{
+     width:175px;
+     padding-top: 10px;
+}
+
+.row5{
+    width: 16.66666667%;
+}
+
+.banner5{
+display: inline-block;
+max-width: 100%;
+}
+
+.banner5-img1{
+    width:175px;
+    padding-top: 20px;
+}
+
+.banner5-img2{
+    width:175px;
+    padding-top: 15px;
+}
+
+.banner5-img3{
+    width:175px;
+    padding-top:30px;
+}
+
+.row6{
+    width: 16.66666667%;
+}
+
+.banner6-img3{
+    width: 150px;
+    padding-top: 10px;
+}
+
+
+/*code-experts*/
+
+.code-experts-container{
+    display: flex;
+    gap: 50px;
+    padding: 10px 80px;
+}
+
+.lang-1{
+    width: 33.333333%;
+    padding-bottom: 30px;
+}
+
+.language-name{
+    border-top: 2px solid #5AA1E3;
+    width: 100%;
+}
+
+.language-name h4{
+    font-family: montserrat;
+    font-size: 24px;
+    color: #00abc9;
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.lang-contant ul{
+    padding-left:20px;
+    font-size: 17px;
+    color: #6f6f6f;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    width: 100%;
+}
+
+.lang-2{
+    width: 33.333333%;
+    padding-bottom: 30px;
+}
+
+.lang-3{
+    width: 33.333333%;
+    padding-bottom: 30px;
+}
+
+.read-btn{
+    padding-top:30px;
+}
+
+.code-link{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #555;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 0px #555;
+}
+
+.code-link:hover{
+    box-shadow: none;
+}

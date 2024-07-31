@@ -51,6 +51,9 @@ h5{
     padding-bottom: 20px;
 }
 
+.expert-container{
+    padding-top: 20px;
+}
 
 .s1{
     color: #767676;
@@ -80,25 +83,41 @@ h6{
     padding-top: 50px;
 }
 
+
 .mobile-read{
     padding:15px;
 }
 
-button{
+.book{
+    font-style: italic;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+
+.read .btn-link{
     color: white;
     background-color: black;
-    padding: 10px 20px;
+    padding: 20px 30px;
     font-family: "Montserrat";
     border-radius:5px;
     font-size: 20px;
     cursor: pointer;
     border: none;
+    list-style: none;
+    text-decoration: none;
 }
+
+.read .btn-link:hover{
+    background-color: #eeb013;
+    color: #000;
+}
+
 
 .container{
     display: flex;
     gap: 90px;
-    padding: 50px 80px;
+    padding: 20px 80px;
 }
 .AI-solution{
     background-color: black;
@@ -127,13 +146,19 @@ h6{
 .AI{
     color: white;
     background-color: #00abc9;
-    padding: 10px 20px;
+    padding: 20px 30px;
     font-family: "Montserrat";
     border-radius:5px;
     font-size: 20px;
     cursor: pointer;
     border: none;
+    text-decoration: none;
+    list-style: none;
+}
 
+.AI:hover{
+    background-color: white;
+    color:#00abc9;
 }
 
 .AI-container{
@@ -489,6 +514,14 @@ h6{
     font-weight: 800;
     padding: 14px 25px;
     border-radius: 30px;
+    background-color: #000;
+    color: white;
+    z-index: 1;
+}
+
+.model-btn button:hover{
+    background-color: #00abc9;
+    color: #000;
 }
 
 .model-btn{

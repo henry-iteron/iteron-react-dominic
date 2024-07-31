@@ -64,7 +64,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section className="expert-container">
         <div className="container">
           <div className="expert">
             <h5>Expertise in</h5>
@@ -122,9 +122,9 @@ export const Home = () => {
                 </h6>
               </div>
               <div className="read">
-                <button>
-                  <i class="fa-solid fa-book"></i> Read more
-                </button>
+                <Link className="btn-link" to="/digitizes">
+                  <i className="book fa-solid fa-book"></i> Read more
+                  </Link>
               </div>
             </div>
           </div>
@@ -138,9 +138,9 @@ export const Home = () => {
                 <h6>AI Solution</h6>
               </div>
               <div className="reading">
-                <button className="AI">
-                  <i class="fa-solid fa-book"></i> Read more
-                </button>
+                <Link className="AI" to="/Artificialintellegence">
+                  <i className="book fa-solid fa-book"></i> Read more
+                </Link>
               </div>
             </div>
           </div>
@@ -228,9 +228,9 @@ export const Home = () => {
                 </h6>
               </div>
               <div className="read">
-                <button>
-                  <i class="fa-solid fa-book"></i> Read more
-                </button>
+                <Link className="btn-link" to="/blockchain">
+                  <i className="book fa-solid fa-book"></i> Read more
+                </Link>
               </div>
             </div>
           </div>
