@@ -324,8 +324,9 @@ export default function Digitize() {
               </ul>
             </div>
             <div className="read-btn">
-               <Link className="code-link" to="/">Read more
-               </Link>
+              <Link className="code-link" to="/">
+                Read more
+              </Link>
             </div>
           </div>
 
@@ -351,8 +352,9 @@ export default function Digitize() {
               </ul>
             </div>
             <div className="read-btn">
-               <Link className="code-link" to="/">Read more
-               </Link>
+              <Link className="code-link" to="/">
+                Read more
+              </Link>
             </div>
           </div>
 
@@ -378,11 +380,102 @@ export default function Digitize() {
               </ul>
             </div>
             <div className="read-btn">
-               <Link className="code-link" to="/">Read more
-               </Link>
+              <Link className="code-link" to="/">
+                Read more
+              </Link>
             </div>
           </div>
         </div>
+      </section>
+
+      <section>
+        <div className="code-experts-container">
+          <div className="lang-1">
+            <div className="language-name">
+              <h4>Mean Stack & PHP</h4>
+            </div>
+            <div className="lang-contant">
+              <ul>
+                <li class="li1">PHP Symfony</li>
+                <li class="li1">PHP Laravel</li>
+                <li class="li1">Drupal &amp; Joomla</li>
+                <li>Angular JS, Angular 2, Angular 4</li>
+                <li>React JS, Node JS</li>
+                <li>MEAN&nbsp;Stack developments</li>
+                <li>Bootstrapping</li>
+                <li>AngularJS&nbsp;Models and Controller</li>
+                <li>Build Components Controller</li>
+                <li>XHR &amp; Dependency Injection</li>
+                <li>REST APIs and Custom Services</li>
+                <li>Animations</li>
+              </ul>
+            </div>
+            <div className="read-btn">
+              <Link className="code-link" to="/">
+                Read more
+              </Link>
+            </div>
+          </div>
+
+          <div className="lang-2">
+            <div className="language-name">
+              <h4>Mobile Apps Experts</h4>
+            </div>
+            <div className="lang-contant">
+              <ul>
+                <li>React Native Development</li>
+                <li>Xamarin Devlopments</li>
+                <li>Ionic frameworks</li>
+                <li>iOS and Android Experts</li>
+                <li>Prototypes &amp; mockups</li>
+                <li>Usability consulting</li>
+                <li>Wireframing services</li>
+                <li>User interface design</li>
+                <li>Automation testing</li>
+                <li>User &amp; focus group research</li>
+                <li>Infographics</li>
+                <li>Define BYOD/MDM strategy</li>
+              </ul>
+            </div>
+            <div className="read-btn">
+              <Link className="code-link" to="/">
+                Read more
+              </Link>
+            </div>
+          </div>
+
+          <div className="lang-3">
+            <div className="language-name">
+              <h4>sitecore CMS Expertise</h4>
+            </div>
+            <div className="lang-contant">
+              <ul>
+                <li>Dynamic Personalisation</li>
+                <li>Experience Editing</li>
+                <li>Optimised Mobile Experience</li>
+                <li>Social Media Engagement</li>
+                <li>Regionalisation and Localisation</li>
+                <li>Ecommerce Services</li>
+                <li>Eliminating Complexity</li>
+                <li>Digital Marketing Tools</li>
+                <li>Engagement &amp; Development</li>
+                <li>Design Flexibility</li>
+                <li>Seamless Integration,</li>
+                <li>Scalability &amp; Multisite Management</li>
+              </ul>
+            </div>
+            <div className="read-btn">
+              <Link className="code-link" to="/">
+                Read more
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+          
+
       </section>
     </>
   );
