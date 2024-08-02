@@ -1,0 +1,141 @@
+.pagetop-automation{
+    background: url("https://iterontech.com/wp-content/uploads/2019/02/ITERON-Tech-Case-1600x209_c.jpg" ) no-repeat scroll 0 0 / cover;
+    width: 100%;
+    text-align: center;
+    padding: 70px 0 60px;
+    position: relative;
+    z-index: 1
+}
+
+.pagetop-automation::before{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.55;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/*automtion-expertise*/
+.auto-exp{
+    padding: 10px 80px;
+}
+
+.automtion-expertise{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 0px #5e5e5e;
+}
+
+.auto-exp-img{
+    width: 33.333333%;
+}
+
+.auto-exp-cont{
+    width: 33.3333333%;
+}
+
+.auto-exp-img-2{
+    width: 33.3333333%;
+}
+
+/* auto-offer-block */
+
+.auto-offer-block{
+    padding: 10px 80px;
+    padding-bottom: 20px;
+}
+
+.auto-offer{
+    display: flex;
+    gap: 30px;
+}
+
+.auto-cato-name h5{
+    color: #141414;
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.auto-catgories{
+    padding-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    padding-right: 20px;
+}
+
+
+.auto-offer-para p{
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+
+
+
+
+/* auto-approach */
+
+.auto-approach{
+    padding: 0px 80px;
+    padding-bottom: 20px;
+}
+
+
+
+.auto-appro-title h4{
+           line-height: 1rem;
+           font-size: 100%;
+           color: #141414;
+           font-family: montserrat;
+           font-weight: 400;
+           display: flex;
+           justify-content: center;
+}
+
+.auto-appro-conta{
+    display: flex;
+    gap: 10px;
+    justify-content:space-between;
+}
+
+.appro-consult{
+    width: 25%;
+}
+
+.CO-CREATE{
+    width: 25%;
+}
+
+.CREATE{
+    width: 25%;
+}
+
+.COACH{
+    width: 25%;
+}
+
+
+.auto-work{
+    padding: 10px 80px;
+    padding-bottom: 20px;
+}
+
+.automation-working{
+    display: flex;
+    gap: 30px;
+}
+
+.automation-work-img2 img{
+    max-width:75%;
+    height: auto;
+}

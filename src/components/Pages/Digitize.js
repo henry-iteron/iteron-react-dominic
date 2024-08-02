@@ -474,9 +474,219 @@ export default function Digitize() {
       </section>
 
       <section>
-          
-
+        <div className="overall-contant">
+          <div className="right-tog">
+            <div className="proof">
+              <div className="proof-contact">
+                <div className="proof-title">
+                  <h6>Get a free 40 hours Proof of Concept !</h6>
+                </div>
+                <div className="contact">
+                  <button>
+                    <i className="thum-icon fa-regular fa-thumbs-up"></i>
+                    CONTACT US
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="left-cont">
+            <div className="tog-1">
+              <div className="cont-title">
+                <h2>CONTACT US WITH YOUR REQUIREMENT</h2>
+              </div>
+              <div className="cont-describe">
+                <p>
+                  Send us your requirement with short introduction to your
+                  current challenges,project status and technology stack.
+                  Contact us!
+                </p>
+              </div>
+            </div>
+            <div className="tog-2">
+              <div className="cont-title">
+                <h2>GET A FREE PROOF OF CONCEPT</h2>
+              </div>
+              <div className="cont-describe">
+                <p>
+                  Identify a Challenge in your application landscape that can be
+                  developed stand-alone. Avail a FREE 40 hours proof of concept
+                </p>
+              </div>
+            </div>
+            <div className="tog-3">
+              <div className="cont-title">
+                <h2>EXPERIENCE, EVALUATE AND DECIDE</h2>
+              </div>
+              <div className="cont-describe">
+                <p>
+                  Work with the our team for the POC. Experience our Working
+                  model, professionalism and Quality. Evaluate our deliverable
+                  and decide.
+                </p>
+              </div>
+            </div>
+            <div className="tog-4">
+              <div className="cont-title">
+                <h2>FINALISE COLLABORATION & COST MODELS</h2>
+              </div>
+              <div className="cont-describe">
+                <p>
+                  After POC evaluvation, work together to decide the roadmap,
+                  planning based on the budgets, scope and targets of your
+                  Business plan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+
+      <section className="request-form">
+        <div className="request-call">
+          <div className="req-img">
+            <img
+              src="https://www.iterontech.com/wp-content/uploads/2017/01/callback.png"
+              alt=""
+            ></img>
+          </div>
+          <div className="call-form">
+            <div className="call-title">
+              <h3>
+                Request a callback<i>.</i>{" "}
+              </h3>
+              <span>
+                Would you like to speak to one of your Consultant? Just submit
+                your details and we'll be in touch shortly
+              </span>
+            </div>
+            <form>
+              <div className="field">
+                <div className="first-row">
+                  <div>
+                    <select>
+                      <option>
+                        <search></search>
+                      </option>
+                      <option className="pd">Product Development</option>
+                      <option>Hire Developers</option>
+                      <option>Consultancy</option>
+                      <option>Application Support</option>
+                      <option>Others</option>
+                    </select>
+                  </div>
+                  <div>
+                    <input type="text" placeholder="First Name" />
+                  </div>
+                </div>
+                <div className="second-row">
+                  <div>
+                    <input type="text" placeholder="Email" />
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Phone Number" />
+                  </div>
+                </div>
+                <div className="call-btn">
+                  <button>submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div className="footer-background">
+          <div className="footer-content">
+            <div className="asia">
+              <div className="country-name">
+                <h4>ASIA</h4>
+              </div>
+              <div className="coun-para">
+                <p>
+                  10/24 Lakshmipuram Extn
+                  <br></br>
+                  First Main Road
+                  <br></br>
+                  West Tambaram
+                  <br></br>
+                  India
+                  <br></br>
+                  +91 99406 40793
+                </p>
+              </div>
+              <div className="srilanka-para">
+                <p>
+                  Level 26/34 East Tower
+                  <br></br>
+                  World Trade Center, Colombo 1<br></br>
+                  Sri Lanka
+                  <br></br>
+                  +94(0)11 7430220
+                </p>
+              </div>
+            </div>
+
+            <div className="Europe">
+              <div className="country-name">
+                <h4>EUROPE</h4>
+              </div>
+              <div className="coun-para">
+                <p>
+                  Picassoplatz 4<br></br>
+                  CH-4052 Basel
+                  <br></br>
+                  Switzerland
+                  <br></br>
+                  +41 (0)61 272 95 95
+                </p>
+              </div>
+            </div>
+
+            <div className="Australia">
+              <div className="country-name">
+                <h4>AUSTRALIA</h4>
+              </div>
+              <div className="coun-para">
+                <p>Canberra</p>
+              </div>
+            </div>
+
+            <div className="usa">
+              <div className="country-name">
+                <h4>USA</h4>
+              </div>
+              <div className="coun-para">
+                <p>
+                  700 N St.Mary's Street
+                  <br></br>
+                  Suite 1400
+                  <br></br>
+                  San Antonio
+                  <br></br>
+                  TX 78205
+                  <br></br>
+                  866-611-6228
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bottom-strip">
+          <div className="bottom-container">
+            <div className="bottom-para">
+              <p>
+                <span className="s3">
+                  <a>PRIVACY POLICY</a>
+                </span>
+                <span className="s4">@ 2021 ITERON All Rights Reserved</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }

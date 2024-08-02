@@ -15,7 +15,7 @@ export const Navbar = () => {
       <div className='contant'>
         <Link className='digitize' to="/digitizes" onMouseEnter={() => setDigitdropdown(true)}
         onMouseLeave={() => setDigitdropdown(false)}>Digitize {digitdropdown && <Dropdown type={"digitize"}/>} </Link>
-        <Link className='cloud' to="/" >Cloud services</Link>
+        <Link className='cloud' to="/CloudService" >Cloud services</Link>
         <Link className='consult' to="/" onMouseEnter={() => setConsultdropdown(true)}
         onMouseLeave={() => setConsultdropdown(false)}>Consultation {consultdropdown && <Dropdown type={"consultation"}/>} </Link>
         

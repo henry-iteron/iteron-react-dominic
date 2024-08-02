@@ -4,9 +4,10 @@ import { Logo } from "./components/Logo";
 import { Navbar } from "./components/Navbar";
 import { Topbar } from "./components/Topbar";
 import Digitize from "./components/Pages/Digitize";
-import { Automation } from "./components/Pages/Automation";
+import  Automation  from "./components/Pages/Automation";
 import { Home } from "./components/Pages/Home";
 import { useEffect } from "react";
+import  Cloud  from "./components/Pages/Cloud";
 
 function Reload() {
   const path = useLocation();
@@ -28,6 +29,7 @@ function App() {
           <Route path="/" exact Component={Home} />
           <Route path="/digitizes" exact Component={Digitize} />
           <Route path="/automation" exact Component={Automation} />
+          <Route path="/CloudService" exact Component={Cloud} />
         </Routes>
       </BrowserRouter>
     </>

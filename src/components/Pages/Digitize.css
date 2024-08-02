@@ -39,6 +39,11 @@
     letter-spacing: 0.3px;
     text-decoration: none;
 }
+
+.hyper:hover{
+      color: #5AA1E3;
+}
+
 .shortcut li{
     color:white;
     display: inline-block;
@@ -350,3 +355,41 @@ max-width: 100%;
 .code-link:hover{
     box-shadow: none;
 }
+
+/* content-overall*/
+
+.overall-contant{
+    display: flex;
+    padding: 10px 80px;
+    gap: 20px;
+}
+.right-tog{
+    width: 33.33333337%;
+}
+
+.left-cont{
+    width: 66.6666667%;
+}
+
+.cont-title h2{
+    background: white;
+      color: #404040;
+      border: 2px solid #f1f1f1;
+      font-family: montserrat;
+      font-weight: 600;
+      font-size: 14px;
+      padding: 15px 30px;
+      border-radius: 40px;
+      cursor: pointer;
+}
+
+.cont-describe{
+    padding-bottom: 20px;
+} 
+
+.cont-describe p{
+        color: #5e5e5e;
+        line-height: 26px;
+        letter-spacing: 0.6px;
+        padding: 10px 20px;
+};
