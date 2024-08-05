@@ -18,3 +18,91 @@
     left: 0;
     top: 0;
 }
+
+
+
+.ai-para{
+ padding-top: 10px;
+}
+
+.ai-para strong{
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+}
+
+
+.ai-logo-box{
+    padding: 20px 80px;
+}
+
+.ai-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ai-container p{
+    font-family: lato;
+    color: #797979;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+}
+
+#introduction-ai{
+    padding: 20px 80px;
+}
+
+
+
+.ai-offers{
+    padding: 20px 80px;
+}
+
+.ai-box{
+    background-color: #303030;
+    width: 33.333333%;
+}
+
+.ai-name h6{
+    color: white;
+    text-align: center;
+    font-family: montserrat;
+    word-wrap: break-word;
+}
+
+.ai-paragraph p{
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.ai-offer-link{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.AI-link{
+    color: white;
+    background-color: #00abc9;
+    font-family: "Montserrat";
+    border-radius:5px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    padding: 20px ;
+    text-decoration: none;
+}
+
+.AI-link:hover{
+    background-color: white;
+    color:#00abc9;
+}
