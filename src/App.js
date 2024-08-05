@@ -8,6 +8,7 @@ import  Automation  from "./components/Pages/Automation";
 import { Home } from "./components/Pages/Home";
 import { useEffect } from "react";
 import  Cloud  from "./components/Pages/Cloud";
+import Artificialintellegence from "./components/Pages/Artificialintellegence";
 
 function Reload() {
   const path = useLocation();
@@ -30,6 +31,7 @@ function App() {
           <Route path="/digitizes" exact Component={Digitize} />
           <Route path="/automation" exact Component={Automation} />
           <Route path="/CloudService" exact Component={Cloud} />
+          <Route path="//Artificialintellegence" exact Component={Artificialintellegence} />
         </Routes>
       </BrowserRouter>
     </>
