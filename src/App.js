@@ -9,6 +9,9 @@ import { Home } from "./components/Pages/Home";
 import { useEffect } from "react";
 import  Cloud  from "./components/Pages/Cloud";
 import Artificialintellegence from "./components/Pages/Artificialintellegence";
+import Blockchain from "./components/Pages/Blockchain";
+import Aboutus from "./components/Pages/Aboutus";
+import Testimonial from "./components/Pages/Testimonial";
 
 function Reload() {
   const path = useLocation();
@@ -31,7 +34,10 @@ function App() {
           <Route path="/digitizes" exact Component={Digitize} />
           <Route path="/automation" exact Component={Automation} />
           <Route path="/CloudService" exact Component={Cloud} />
-          <Route path="//Artificialintellegence" exact Component={Artificialintellegence} />
+          <Route path="/Artificialintellegence" exact Component={Artificialintellegence} />
+          <Route path="/blockchain" exact Component={Blockchain} />
+          <Route path="/aboutus" exact Component={Aboutus} />
+          <Route path="/testimonials" exact Component={Testimonial} />
         </Routes>
       </BrowserRouter>
     </>

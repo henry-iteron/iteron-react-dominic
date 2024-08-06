@@ -1,0 +1,52 @@
+.pagetop-AI{
+    background: url("https://iterontech.com/wp-content/uploads/2019/02/ITERON-AMP-Case-1600x209_c.jpg" ) no-repeat scroll 0 0 / cover;
+    width: 100%;
+    text-align: center;
+    padding: 70px 0 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.pagetop-AI::before{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.55;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.testimonial-box{
+    padding: 20px 90px;
+}
+
+
+.testimonial-cont{
+    display: flex;
+    gap: 30px;
+    box-shadow: 0px 5px 5px #767676;
+}
+
+.testimonial-para p{
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.testimonial-para h4{
+    color: #141414;
+    font-weight: 500;
+    font-family: montserrat;
+    font-size: 24px;
+    padding: 0;
+    padding-bottom:20px;
+   
+}

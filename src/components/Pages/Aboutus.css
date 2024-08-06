@@ -1,0 +1,241 @@
+.pagetop-AI{
+    background: url("https://iterontech.com/wp-content/uploads/2017/01/pagetop-1600x209_c.jpg" ) no-repeat scroll 0 0 / cover;
+    width: 100%;
+    text-align: center;
+    padding: 70px 0 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.pagetop-AI::before{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.55;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+.aboutus-box{
+    padding: 20px 90px;
+}
+
+.about-name h2{
+    font-size: 32px;
+    font-family: montserrat;
+    color: #00abc9;
+    padding-bottom:12px;
+}
+
+.about-para p{
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+
+.about-ul ul{
+    font-size: 17px;
+    color: #6f6f6f;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    padding-left: 20px;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+.about-ul li{
+    padding: 10px;
+}
+
+.about-para{
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+
+
+
+.about-statics{
+    display: flex;
+    background-color: #00abc9;
+    justify-content: space-between;
+    padding: 10px 20px
+}
+
+.about-img-client  {
+    align-content: center;
+    
+}
+
+
+
+.about-count-number{
+    color: #000;
+    font-family:montserrat;
+    font-size: 50px;
+}
+
+.about-count-name{
+    font-size: 20px;
+    color: #2d2d2d;
+}
+
+.about-cont{
+    padding-top: 50px;
+}
+
+
+.about-analysic{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-analysic-left{
+    width: 66.6666666%;
+}
+
+.about-skill-name{
+    padding-top: 15px;
+    color:black;
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.pro-list{
+    font-size: 14px;
+    font-family: montserrat;
+    color: #024457;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+    list-style: none;
+}
+
+.pro-list li{
+    padding: 10px;
+}
+
+.check{
+    padding-right: 10px;
+}
+
+
+.abt-center h4{
+    font-family: Abril fatface;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    padding: 0;
+    padding-top:40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+.about-us-cont{
+    padding-top: 50px;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.abt-detils{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.abt-details-name h4{
+    font-size:24px;
+    font-family: montserrat;
+    color: #00abc9;
+    padding: 0;
+    padding-bottom:20px;
+}
+
+.abt-list ul{
+    font-size: 17px;
+    font-family: montserrat;
+    color: #141414;
+    letter-spacing: 0.3px;
+    line-height:30px;
+    padding-bottom: 50px;
+    width: 100%;
+    padding-left:20px ;
+}
+
+.abt-list li{
+    padding: 5px;
+}
+
+
+.backgroud-abt{
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+.abt-review{
+    display: flex;
+}
+
+.abt-review-left{
+    width: 50%;
+    padding: 30px 35px;
+}
+
+.abt-review-right{
+    width: 50%;
+    padding: 30px 35px ;
+}
+
+.abt-review-para p{
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+
+.abt-review-para p strong{
+    font-weight: 800;
+}
+
+.abt-review-title h2{
+    font-family: montserrat;
+    padding-bottom: 20px;
+    font-size: 32px;
+    color: #00abc9;
+    font-weight: 400;
+}
+
+.abt-review-title p{
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+
+.abt-review-title p strong{
+    font-weight: 800;
+}

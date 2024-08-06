@@ -1,15 +1,15 @@
 import React from "react";
-import "./Artificialintellegence.css";
+import "./Blockchain.css";
 import { Link } from "react-router-dom";
 
-export default function Artificialintellegence() {
+export default function Blockchain() {
   return (
     <>
       <div className="pagetop-AI">
         <div className="title-container">
           <h1>
-            AI offerings - machine learning, deep learning,NLP, Image
-            recognition and Computer vision
+            Blockchain Consultancy | Blockchain Developments | Blockchain Infra
+            Support
           </h1>
           <ul className="shortcut">
             <li>
@@ -17,7 +17,7 @@ export default function Artificialintellegence() {
                 Home
               </Link>
             </li>
-            <li>Artificialintellegence</li>
+            <li>Blockchain</li>
           </ul>
         </div>
       </div>
@@ -33,13 +33,13 @@ export default function Artificialintellegence() {
                 ></img>
               </div>
               <div className="ai-para">
-                <strong>AI Consultancy</strong>
+                <strong>Blockchain Consultancy</strong>
                 <br></br>
-                <strong>Predictive Analysis</strong>
+                <strong>Blockchain Intergrations</strong>
                 <br></br>
-                <strong>AI Developments</strong>
+                <strong>Blockchain Developments</strong>
                 <br></br>
-                <strong>3rd Party Integration</strong>
+                <strong>Blockchain Infrastructure</strong>
                 <br></br>
                 <strong>Maintenance and support</strong>
                 <br></br>
@@ -49,34 +49,35 @@ export default function Artificialintellegence() {
             <div className="offer-contant">
               <div className="offer-para">
                 <p>
-                  <strong>°&nbsp; Planning and Consulting&nbsp;</strong>AI
-                  Solutions<br></br>
-                  <strong>°&nbsp; Business Consultancy&nbsp;</strong>and
-                  Strategy<br></br>
-                  <strong>°&nbsp; Machine Learning </strong>&nbsp;Models
+                  <strong>°&nbsp; Planning and Consulting&nbsp;</strong>
+                  Blockchain Solutions <br></br>
+                  <strong>°&nbsp; Infrastructure&nbsp;</strong>Integration{" "}
                   <br></br>
-                  <strong>°&nbsp; Deep Learning </strong>Models<br></br>
-                  <strong>°&nbsp; Natural Language </strong>Processing{" "}
-                  <strong>(NLP)</strong>
+                  <strong>°&nbsp; Developing use cases</strong>&nbsp;that can
+                  use blockchain <br></br>
+                  <strong>°&nbsp; Conceptualise&nbsp;</strong>the solution{" "}
                   <br></br>
-                  <strong>°&nbsp; Solution Architecture &amp; </strong>Design
+                  <strong>°&nbsp; </strong>Solution{" "}
+                  <strong>Architecture &amp; Design</strong> <br></br>
+                  <strong>°&nbsp; </strong>Experts in&nbsp;
+                  <strong>Hyperledger,Ethereum, EOS</strong> <br></br>
+                  <strong>°&nbsp; </strong>We have our&nbsp;own&nbsp;
+                  <strong>framework for Blockchain Applications</strong>{" "}
                   <br></br>
-                  <strong>°&nbsp; Predictive Analysis </strong>and Modelling
-                  <br></br>
-                  <strong>° Image and Voice Processing</strong>
-                  <br></br>
-                  °&nbsp; Experts in&nbsp;<strong>Python,R, Open MV</strong>
-                  <br></br>
-                  <strong>°&nbsp; </strong>Advisory on choosing the
-                  <strong>right platform</strong> for the specified use case and
-                  industry<br></br>
+                  <strong>°&nbsp; Identification of core components</strong>
+                  &nbsp;for Blockchain platform <br></br>
+                  <strong>°&nbsp; </strong>Advisory on choosing the&nbsp;
+                  <strong>right platform</strong>&nbsp;for the specified use
+                  case and industry <br></br>
+                  <strong>°&nbsp; </strong>Developing&nbsp;
+                  <strong>proof-of-concepts</strong>&nbsp;for using Blockchain
+                  Technology <br></br>
+                  <strong>°&nbsp; Design, develop and deploy</strong>
+                  &nbsp;applications using Blockchain Technology <br></br>
+                  <strong>°&nbsp; </strong>Blockchain –&nbsp;
+                  <strong>Training &amp; project case study</strong> <br></br>
                   <strong>°&nbsp; </strong>Monitoring and&nbsp;
                   <strong>Support</strong>
-                  <br></br>
-                  <strong>°&nbsp; </strong>Developing&nbsp;
-                  <strong>proof-of-concepts</strong>&nbsp;for used cases in AI
-                  <br></br>
-                  <b>°&nbsp; Anomaly&nbsp;detection</b>
                 </p>
               </div>
             </div>
@@ -84,49 +85,25 @@ export default function Artificialintellegence() {
         </div>
       </section>
 
-      <section className="ai-logo-box">
-        <div className="ai-logo">
-          <div className="ai-logo-cont">
-            <div className="ai-logo-1">
-              <img
-                src="https://www.iterontech.com/wp-content/uploads/2019/06/python-logo-png-newpythonlogo-png-1024-300x146.png"
-                alt=""
-              ></img>
-            </div>
-            <div className="ai-logo-1">
-              <img
-                src="https://www.iterontech.com/wp-content/uploads/2019/06/image7-1-300x109.jpg"
-                alt=""
-              ></img>
-            </div>
+      <section className="bc-img-box">
+        <div className="bc-img-cont">
+          <div className="bc-img-1">
+            <img
+              src="https://www.iterontech.com/wp-content/uploads/2019/06/0_oNKrTy5EXl6Mjmb5-1-300x89.jpeg"
+              alt=""
+            ></img>
           </div>
-          <div className="ai-logo-cont">
-            <div className="ai-logo-1">
-              <img
-                src="https://www.iterontech.com/wp-content/uploads/2019/06/openmv-logosmall-ROBU.IN_-3-300x152.png"
-                alt=""
-              ></img>
-            </div>
-            <div className="ai-logo-1">
-              <img
-                src="	https://www.iterontech.com/wp-content/uploads/2019/06/Tensorflow-Inception-300x127.png"
-                alt=""
-              ></img>
-            </div>
+          <div className="bc-img-2">
+            <img
+              src="https://www.iterontech.com/wp-content/uploads/2019/06/Ethereum-Price-Analysis-ETH-USD-Increasing-again-1-300x107.jpg"
+              alt=""
+            ></img>
           </div>
-          <div className="ai-logo-cont">
-            <div className="ai-logo-1">
-              <img
-                src="	https://www.iterontech.com/wp-content/uploads/2019/06/d9ef31e261aab6d826028e79a11c80da-300x129.png"
-                alt=""
-              ></img>
-            </div>
-            <div className="ai-logo-1">
-              <img
-                src="https://www.iterontech.com/wp-content/uploads/2019/06/1_S8Il5ethl3YFh0M9XKVz-A-2-300x129.png"
-                alt=""
-              ></img>
-            </div>
+          <div className="bc-img-3">
+            <img
+              src="	https://www.iterontech.com/wp-content/uploads/2019/06/400px-EOS-logo-1-300x128.png"
+              alt=""
+            ></img>
           </div>
         </div>
       </section>
@@ -143,7 +120,7 @@ export default function Artificialintellegence() {
                   ></img>
                 </div>
                 <div className="count-contant">
-                  <strong className="count-number">6</strong>
+                  <strong className="count-number">5</strong>
                   <br></br>
                   <span className="count-name">Statisfied Clients</span>
                 </div>
@@ -156,9 +133,9 @@ export default function Artificialintellegence() {
                   ></img>
                 </div>
                 <div className="count-contant">
-                  <strong className="count-number">10</strong>
+                  <strong className="count-number">15</strong>
                   <br></br>
-                  <span className="count-name">AI Consultants</span>
+                  <span className="count-name">Blockchain Experts</span>
                 </div>
               </div>
               <div className="satis-client">
@@ -171,7 +148,7 @@ export default function Artificialintellegence() {
                 <div className="count-contant">
                   <strong className="count-number">10</strong>
                   <br></br>
-                  <span className="count-name">AI Projects</span>
+                  <span className="count-name">Blockchain Projects</span>
                 </div>
               </div>
               <div className="satis-client">
@@ -182,9 +159,9 @@ export default function Artificialintellegence() {
                   ></img>
                 </div>
                 <div className="count-contant">
-                  <strong className="count-number">3</strong>
+                  <strong className="count-number">6</strong>
                   <br></br>
-                  <span className="count-name">AI Products</span>
+                  <span className="count-name">Vertical Solutions</span>
                 </div>
               </div>
             </div>
@@ -195,17 +172,19 @@ export default function Artificialintellegence() {
       <section id="introduction-ai">
         <div className="ai-container">
           <p>
-            We are experts in providing AI Solutions for various Industries like
-            digital, real estate, advertising and retail. Read through our
-            solutions and contact us for the demo.
+            We are experts in providing Blockchain Solutions for various
+            Industries like Education, Oil and Gas, Supply chain,
+            E-Invoicing.&nbsp; See below the details of our solutions and
+            contact us for the demo.
           </p>
           <br></br>
           <p>
-            We build customized solutions for our Customers using Python, R,
-            OpenMV, Keras, Tensor flow etc. An AI Solution needs to be
-            integrated and be fit in the existing IT Landscape &amp;
-            Architecture and this is exactly what we are specialized in offering
-            an end to end packaged AI solution.
+            We build customized solutions for our Customers with our Blockchain
+            framework developed in Hyperledger, Ethereum and EOS. We
+            help&nbsp;our customer’s business reach to market in short span of
+            time using our framework built in React Js, Node js,
+            Hyperledger/Ethereum. We will happy to demo our framework on request
+            !
           </p>
         </div>
       </section>
@@ -214,12 +193,13 @@ export default function Artificialintellegence() {
         <div className="ai-offer-cont">
           <div className="ai-box">
             <div className="ai-name">
-              <h6>Image recognition for zoo & Museum</h6>
+              <h6>Students' Certificate Verification Portal</h6>
             </div>
             <div className="ai-paragraph">
               <p>
-                Our AI apps provides an Integrated solutions for zoo and Museums
-                to attract visitors{" "}
+                Our Blockchain apps authenticates the Student
+                profiles,Certifications and integrates with Universities &amp;
+                Employers
               </p>
             </div>
             <div className="ai-offer-link">
@@ -234,12 +214,12 @@ export default function Artificialintellegence() {
             </div>
             <div className="black-para">
               <ul>
-                <li>High costs on traditional methods</li>
-                <li>Less attractive in Smart phone era</li>
-                <li>Maintain traditional equipments</li>
-                <li>Ineffective data usage or no data</li>
-                <li>Forecasting not possible</li>
-                <li>No performance indicators</li>
+                <li>Fake Certifications</li>
+                <li>Tedious Background Checks</li>
+                <li>Costs to employers &amp; embassies</li>
+                <li>Risk of fraudulent activities</li>
+                <li>No possibility to trace certificates</li>
+                <li>Integrate with foreign countries</li>
               </ul>
             </div>
           </div>
@@ -250,12 +230,12 @@ export default function Artificialintellegence() {
             </div>
             <div className="black-para">
               <ul>
-                <li>AI based image tracker</li>
-                <li>Big data to analyse behavior</li>
-                <li>Time spent info of visitors</li>
-                <li>Visits trend based on externalities</li>
-                <li>Advertising and rating options</li>
-                <li>Gaming to engage visitors</li>
+                <li>Authentication of Certificates</li>
+                <li>Trace certificates to the Origin</li>
+                <li>Elimination of Fraudulent risks</li>
+                <li>Eliminate costs for verification</li>
+                <li>Integrate foreign bodies</li>
+                <li>References &amp; Recommendations</li>
               </ul>
             </div>
           </div>
@@ -270,12 +250,12 @@ export default function Artificialintellegence() {
             </div>
             <div className="black-para">
               <ul>
-                <li>Predict PM capabilities</li>
-                <li>Proficiency classifications</li>
-                <li>Offline data management</li>
-                <li>More than 28 parameters</li>
-                <li>Validation of Prediction</li>
-                <li>Traditional forecasts not accurate</li>
+                <li>Integrating small players to SCM</li>
+                <li>Digital Signature costs</li>
+                <li>In-transparent and trapped data</li>
+                <li>Audit Compliance problems</li>
+                <li>History of versions &amp; changes</li>
+                <li>Integration with ERPs</li>
               </ul>
             </div>
           </div>
@@ -286,24 +266,24 @@ export default function Artificialintellegence() {
             </div>
             <div className="black-para">
               <ul>
-                <li>ANN to analyse 28 parameters</li>
-                <li>PM index derivation</li>
-                <li>Model learns on daily basis</li>
-                <li>Clustering Model - Kernel PCA</li>
-                <li>Classification Models</li>
-                <li>Project performance indicators</li>
+                <li>Partners added to the Chain</li>
+                <li>Increased Process Integrity</li>
+                <li>Ease of integration with ERPs</li>
+                <li>Online Audit compliance</li>
+                <li>Eliminate digital signing costs</li>
+                <li>Global access to the portal</li>
               </ul>
             </div>
           </div>
 
           <div className="ai-box">
             <div className="ai-name">
-              <h6>AI Models for a PM Application</h6>
+              <h6>E-Invoicing Solutions for Supply chain</h6>
             </div>
             <div className="ai-paragraph">
               <p>
-                AI based Predictions for Projects and Project Manager ratings
-                based on key parameters
+                Read our case study to see how our Blockchain solution
+                eliminated the need for digital signatures
               </p>
             </div>
             <div className="ai-offer-link">
@@ -319,10 +299,13 @@ export default function Artificialintellegence() {
         <div className="ai-offer-cont">
           <div className="ai-box-blue">
             <div className="ai-name">
-              <h6>Face recognition for Music Finder apps</h6>
+              <h6>Patient Medical Records</h6>
             </div>
             <div className="ai-paragraph">
-              <p>Face recognition solutions for a Music finder application</p>
+              <p>
+                Blockchain Solutions for Patient Medical records and how Patient
+                will own their data in future
+              </p>
             </div>
             <div className="ai-offer-link">
               <Link className="AI-link-black" to="/Artificialintellegence">
@@ -336,12 +319,12 @@ export default function Artificialintellegence() {
             </div>
             <div className="black-para">
               <ul>
-                <li>Musicians upload images</li>
-                <li>with different backgrounds</li>
-                <li>Fit image in Google map icon</li>
-                <li>Trim the backgrounds</li>
-                <li>High performance needed</li>
-                <li>Integration with Rails Apps</li>
+                <li>Patient does not own records</li>
+                <li>Patient data traded in market</li>
+                <li>Redundant medical checks</li>
+                <li>Communication with innovators</li>
+                <li>Patient history not accessible</li>
+                <li>Integration with global bodies</li>
               </ul>
             </div>
           </div>
@@ -352,12 +335,12 @@ export default function Artificialintellegence() {
             </div>
             <div className="black-para">
               <ul>
-                <li>Face recognition using R</li>
-                <li>API calls from google maps</li>
-                <li>Migration of existing images</li>
-                <li>Enhance distorted images</li>
-                <li>Quick searches and retrievals</li>
-                <li>Pop of musician data from images</li>
+                <li>Patient owns his/her records</li>
+                <li>Reduced costs for Patients</li>
+                <li>Elimination of repeated checks</li>
+                <li>Integration with existing Providers</li>
+                <li>Digitally signed medical records</li>
+                <li>Global access to the portal</li>
               </ul>
             </div>
           </div>
@@ -372,12 +355,12 @@ export default function Artificialintellegence() {
             </div>
             <div className="black-para">
               <ul>
-                <li>Musicians upload images</li>
-                <li>with different backgrounds</li>
-                <li>Fit image in Google map icon</li>
-                <li>Trim the backgrounds</li>
-                <li>High performance needed</li>
-                <li>Integration with Rails Apps</li>
+                <li>Communication complexities</li>
+                <li>Audit compliance documents</li>
+                <li>In-transparent and trapped data</li>
+                <li>Risk of fraudulent activities</li>
+                <li>Trace and track of transactions</li>
+                <li>Cross border transactions</li>
               </ul>
             </div>
           </div>
@@ -388,24 +371,24 @@ export default function Artificialintellegence() {
             </div>
             <div className="black-para">
               <ul>
-                <li>Face recognition using R</li>
-                <li>API calls from google maps</li>
-                <li>Migration of existing images</li>
-                <li>Enhance distorted images</li>
-                <li>Quick searches and retrievals</li>
-                <li>Pop of musician data from images</li>
+                <li>Regulatory (ex EMIR, MiFID II)</li>
+                <li>Increase Process Integrity</li>
+                <li>Elimination of Fraudulent risks</li>
+                <li>Trace and Track functions</li>
+                <li>Smart Contracts</li>
+                <li>Extend new peers in the chain</li>
               </ul>
             </div>
           </div>
 
           <div className="ai-box-blue">
             <div className="ai-name">
-              <h6>Retina Tracking apps for Mannequins</h6>
+              <h6>Oil &amp; Natural Gas Solutions</h6>
             </div>
             <div className="ai-paragraph">
               <p>
-                OpenMV Retina tracking apps to measure effectiveness of
-                Mannequins in Retail shops
+                Read our case study to see how our Blockchain framework
+                overcomes the day to day challenges in O&amp;G Sector
               </p>
             </div>
             <div className="ai-offer-link">
@@ -417,131 +400,60 @@ export default function Artificialintellegence() {
         </div>
       </section>
 
-      <section className="ai-code-box">
-        <div className="ai-code-experts-container">
-          <div className="lang-1">
-            <div className="AI-language-name">
-              <h4>CUSTOMIZATION</h4>
+      <section className="bc-expert-box">
+        <div className="bc-expert-cont">
+          <div className="bc-expert">
+            <div className="bc-expert-name">
+              <h5>DUE DILIGENCE</h5>
             </div>
-            <div className="lang-contant">
+            <div className="bc-expert-para">
               <p>
-                We offer custom&nbsp;machine learning consulting&nbsp;that
-                brings modern machine learning tools to you
+                °&nbsp; Research of solution fitment<br></br>
+                °&nbsp; Competitive Analysis<br></br>
+                °&nbsp; Blockchain Consulting<br></br>
+                °&nbsp; Opportunity Assessment<br></br>
+                °&nbsp; Operating Model<br></br>
+                °&nbsp; Transformation roadmap<br></br>
+                °&nbsp; Integration touch points analysis<br></br>
+                °&nbsp; Budget based MVP proposal
               </p>
             </div>
           </div>
 
-          <div className="lang-2">
-            <div className="AI-language-name">
-              <h4>LEVERAGE SKILLS</h4>
+          <div className="bc-expert">
+            <div className="bc-expert-name">
+              <h5>TECHNOLOGY EXPERTISE</h5>
             </div>
-            <div className="lang-contant">
+            <div className="bc-expert-para">
               <p>
-                Leverage our AI development skills to build adaptive,
-                intelligent products and tools
+                °&nbsp; Hyperledger, Ethereum &amp; EOS<br></br>
+                °&nbsp; React js, Node js, other open sources<br></br>
+                °&nbsp; REST APIs and Custom Services<br></br>
+                °&nbsp; In-house build Blockchain framework<br></br>
+                °&nbsp; Focus on Hyperledger Fabri, Burrow<br></br>
+                °&nbsp; Caliper, Iroha, Composer, Explorer<br></br>
+                °&nbsp; Data integration with ERP, other apps<br></br>
+                °&nbsp; Apply AI on the relevant areas
               </p>
             </div>
           </div>
 
-          <div className="lang-3">
-            <div className="AI-language-name">
-              <h4>BUILD MODELS</h4>
+          <div className="bc-expert">
+            <div className="bc-expert-name">
+              <h5>SOLUTION DEVELOPMENT</h5>
             </div>
-            <div className="lang-contant">
+            <div className="bc-expert-para">
               <p>
-                Build&nbsp;predictive models&nbsp;that classify, quantify new
-                events &amp; customers based on historical data
+                °&nbsp; Infrastructure Design<br></br>
+                °&nbsp; Solutions Workshop<br></br>
+                °&nbsp; Customised Development<br></br>
+                °&nbsp; Library of Building blocks<br></br>
+                °&nbsp; Integration with Existing Apps<br></br>
+                °&nbsp; Smart Contract Templates<br></br>
+                °&nbsp; Quality Assurance Process<br></br>
+                °&nbsp; Logs, Dashboards &amp; Mobile Apps
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="ai-code-box-2">
-        <div className="ai-code-experts-container-2">
-          <div className="lang-1">
-            <div className="AI-language-name">
-              <h4>ADVANCED SOLUTIONS</h4>
-            </div>
-            <div className="lang-contant">
-              <p>
-                Apply recent advances in&nbsp;deep learning&nbsp;&amp;&nbsp;
-                neural networks to find structure in noisy, complex input
-              </p>
-            </div>
-          </div>
-
-          <div className="lang-2">
-            <div className="AI-language-name">
-              <h4>SMART SOLUTIONS</h4>
-            </div>
-            <div className="lang-contant">
-              <p>
-                Leverage&nbsp;reinforcement learning&nbsp;to build adaptive,
-                intelligent agents that get smarter over time.
-              </p>
-            </div>
-          </div>
-
-          <div className="lang-3">
-            <div className="AI-language-name">
-              <h4>INTELLIGENT ANALYTICS</h4>
-            </div>
-            <div className="lang-contant">
-              <p>
-                Detect anomalies&nbsp;in your analytics and operations using
-                intelligent machine learning algorithms
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="auto-work">
-        <div className="ai-working">
-          <div className="automation-work-img">
-            <img
-              src="https://www.iterontech.com/wp-content/uploads/2019/01/buttons5-min-300x107.png"
-              alt=""
-            ></img>
-          </div>
-          <div className="ai-work-img2">
-            <img
-              src="	https://www.iterontech.com/wp-content/uploads/2019/03/1-KzmIUYPmxgEHhXX7SlbP4w.jpeg"
-              alt=""
-            ></img>
-          </div>
-        </div>
-      </section>
-
-      <section className="auto-exp">
-        <div className="ai-expertise">
-          <div className="auto-exp-img">
-            <img
-              src="https://www.iterontech.com/wp-content/uploads/2019/03/buttons-1-min_v1.png"
-              alt=""
-            ></img>
-          </div>
-          <div className="auto-exp-cont">
-            <ul>
-              <li>PYTHON</li>
-              <li>R</li>
-              <li>TENSOR FLOW</li>
-              <li>IBM WATSON</li>
-              <li>KERAS</li>
-              <li>OPEN MV</li>
-              <li>WIT.AI</li>
-            </ul>
-          </div>
-          <div className="ai-exp-img2">
-            <img
-              src="https://www.iterontech.com/wp-content/uploads/2019/03/tech_stack1-300x106.png"
-              alt=""
-            ></img>
-            <img
-              src="https://www.iterontech.com/wp-content/uploads/2019/03/ITERON_AI_stack-300x234.png"
-              alt=""
-            ></img>
           </div>
         </div>
       </section>
@@ -603,6 +515,7 @@ export default function Artificialintellegence() {
           </div>
         </div>
       </section>
+
 
       <section>
         <div className="overall-contant">
@@ -818,6 +731,9 @@ export default function Artificialintellegence() {
           </div>
         </div>
       </footer>
+   
+
+
     </>
   );
 }

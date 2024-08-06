@@ -26,8 +26,8 @@ export const ConsultMenu = [
 
 export const PortfolioMenu = [
     {
-        title: 'ABOUT ITERON',
-        path: '/aboutiteron',
+        title: 'ABOUTUS',
+        path: '/aboutus',
         cName: 'dropdown-link',
     },
     {

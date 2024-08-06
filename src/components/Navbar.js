@@ -19,7 +19,7 @@ export const Navbar = () => {
         <Link className='consult' to="/Artificialintellegence" onMouseEnter={() => setConsultdropdown(true)}
         onMouseLeave={() => setConsultdropdown(false)}>Consultation {consultdropdown && <Dropdown type={"consultation"}/>} </Link>
         
-        <Link className='portfolio' to="/" onMouseEnter={() => setPortfoliodropdown(true)}
+        <Link className='portfolio' to="" onMouseEnter={() => setPortfoliodropdown(true)}
         onMouseLeave={() => setPortfoliodropdown(false)}>Our Portfolio {Portfoliodropdown && <Dropdown type={"portfolio"} />} </Link>
         <Link className='careers' to="/" >Careers</Link>
         <Link className='newsroom' to="/" >Newsroom</Link>
