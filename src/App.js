@@ -12,6 +12,9 @@ import Artificialintellegence from "./components/Pages/Artificialintellegence";
 import Blockchain from "./components/Pages/Blockchain";
 import Aboutus from "./components/Pages/Aboutus";
 import Testimonial from "./components/Pages/Testimonial";
+import Business from "./components/Pages/Business";
+import Clientele from "./components/Pages/Clientele";
+import Pricing from "./components/Pages/Pricing";
 
 function Reload() {
   const path = useLocation();
@@ -20,6 +23,8 @@ function Reload() {
   }, [path]);
   return null;
 }
+
+
 
 function App() {
   return (
@@ -38,6 +43,9 @@ function App() {
           <Route path="/blockchain" exact Component={Blockchain} />
           <Route path="/aboutus" exact Component={Aboutus} />
           <Route path="/testimonials" exact Component={Testimonial} />
+          <Route path="/businesscase" exact Component={Business} />
+          <Route path="/clientele" exact Component={Clientele} />
+          <Route path="/pricingmodels" exact Component={Pricing} />
         </Routes>
       </BrowserRouter>
     </>

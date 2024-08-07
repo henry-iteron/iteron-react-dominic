@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Marquee from "react-fast-marquee";
 import "./Home.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate} from "react-router-dom";
 
-export const Home = () => {
+export const Home = () => {  
+ 
+const navigate = useNavigate();
+
+const change = () => navigate("/Pricingmodels");
+ 
+
   return (
     <>
       <div className="hometop">
@@ -694,7 +700,7 @@ export const Home = () => {
               </ul>
             </div>
             <div className="model-btn">
-              <button className="view-model">View more models</button>
+              <button onClick={change} className="view-model">View more models</button>
             </div>
           </div>
 
@@ -721,7 +727,7 @@ export const Home = () => {
               </ul>
             </div>
             <div className="model-btn">
-              <button className="view-model">View more models</button>
+              <button onClick={change} className="view-model">View more models</button>
             </div>
           </div>
 
@@ -748,7 +754,7 @@ export const Home = () => {
               </ul>
             </div>
             <div className="model-btn">
-              <button className="view-model">View more models</button>
+              <button onClick={change} className="view-model">View more models</button>
             </div>
           </div>
         </div>

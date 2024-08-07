@@ -1,0 +1,66 @@
+.pagetop-AI{
+    background: url("https://iterontech.com/wp-content/uploads/2019/06/Slider5_Services-1600x209_c.jpg" ) no-repeat scroll 0 0 / cover;
+    width: 100%;
+    text-align: center;
+    padding: 70px 0 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.pagetop-AI::before{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.55;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.Business-box{
+    padding: 20px 90px;
+}
+
+.Business-cont{
+    display: flex;
+    gap: 30px;
+    box-shadow: 0px 5px 5px #767676;
+}
+
+.Business-logo{
+    width: 25%;
+    text-align: center;
+    align-content: center;
+}
+
+.Business-logo img{
+    border-radius: 50%;
+    border: #ebebeb solid 8px;
+}
+
+
+.Business-para {
+   width: 50%;
+}
+
+.Business-para p{
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.Business-para p strong{
+    font-weight: 800;
+}
+
+.Business-para a{
+    text-decoration: none;
+    color: #00abc9;
+}
