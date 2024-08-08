@@ -1,0 +1,56 @@
+.windchill-crates{
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.wind-consult-para{
+    align-content: center;
+}
+
+.wind-consult-para h3{
+    color: #5d5d5d;
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    padding-bottom: 12px;
+    width: 100%;
+}
+
+.windchill-name h4{
+    padding: 0;
+    font-size: 24px;
+    font-family: montserrat;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom:20px;
+    letter-spacing: 0;
+}
+
+.windchill-box{
+    padding: 0px 90px;
+    padding-bottom: 30px;
+}
+
+.windchill-cont{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.windchill-about-para{
+    text-align: center;
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+    padding-top: 28px;
+    padding-bottom: 20px;
+}
+
+.windchill-team{
+    width: 24%;
+}

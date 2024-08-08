@@ -1,0 +1,13 @@
+.consultant-box{
+    padding: 20px 90px;
+}
+
+.consultant-container{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.consultant-blog-container{
+    width: 33.33333%;
+}

@@ -1,0 +1,196 @@
+.pagetop-automation{
+    background: url("https://iterontech.com/wp-content/uploads/2017/01/pagetop-1600x209_c.jpg" ) no-repeat scroll 0 0 / cover;
+    width: 100%;
+    text-align: center;
+    padding: 70px 0 60px;
+    position: relative;
+    z-index: 1
+}
+
+.pagetop-automation::before{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.55;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.blog-box{
+    padding: 20px 90px;
+}
+
+.blog-img img{
+    width: 100%;
+}
+
+.blog-date{
+    background-color: #00abc9;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 35px;
+    line-height: 20px;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.blog-title h3 a {
+    color: #141414;
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    word-wrap:break-word;
+    width: 100%;
+    text-decoration: none;
+}
+
+.blog-title ul{
+    list-style: none;
+    padding-top: 10px;
+    display: flex;
+    
+}
+
+.blog-title li{
+     padding-right: 20px;
+     line-height: 18px;
+     font-family: montserrat;
+     color: #6f6f6f;
+     font-size: 14px;
+}
+
+.posted-by a{
+    color:#00abc9;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.blog-contant p{
+    width: 100%;
+    padding-top: 10px;
+    font-family: lato;
+    color: #767676;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+
+.blog-post{
+    width: 75%;
+}
+
+
+.blogs-container{
+    display: flex;
+}
+
+.sidebar{
+    width: 25%;
+    padding-left: 20px;
+}
+
+.sidebar-heading h4{
+    font-family: montserrat;
+    color: #303030;
+    font-size: 17px;
+    font-weight: 600;
+     padding: 0;
+     letter-spacing: 0;
+     padding-bottom: 20px;
+}
+
+.sidebar-bg{
+    width: 100%;
+    border: 2px solid #e1e1e1;
+    border-top-width: 3px;
+    border-top-color: #00abc9;
+    padding: 10px;
+}
+
+.sidebar-img{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.sidebar-img img{
+    border-radius: 50%;
+}
+
+.categories h4{
+    padding: 0;
+    letter-spacing: 0;
+    font-family: montserrat;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+.categories ul{
+    list-style: none;
+}
+
+.categories li{
+    padding: 3px;
+}
+
+.categories a{
+    text-decoration: none;
+    color: #141414;
+}
+
+.web-blog-container{
+    padding-top: 20px;
+}
+
+.page-navigate{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 2px solid #ececec;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.page-navigate ul{
+    align-content: center;
+    display: flex;
+    list-style: none;
+}
+
+.page-navigate span{
+    text-align: center;
+    border: 1px solid #00abc9;
+    line-height: 41px;
+    font-size: 18px;
+    color: #00abc9;
+    font-style: italic;
+    padding:10px 15px;
+}
+
+.page-navigate a{
+    text-align: center;
+    border: 1px solid #ececec;
+    line-height: 41px;
+    font-size: 18px;
+    color: #141414;
+    font-style: italic;
+    text-decoration: none;
+    padding:10px 15px;
+}
+
+.page-navigate a:hover{
+    color: #00abc9;
+}
+
+.page-navigate li{
+    padding: 0px 5px;
+}

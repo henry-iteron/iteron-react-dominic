@@ -15,6 +15,13 @@ import Testimonial from "./components/Pages/Testimonial";
 import Business from "./components/Pages/Business";
 import Clientele from "./components/Pages/Clientele";
 import Pricing from "./components/Pages/Pricing";
+import Windchill from "./components/Pages/Windchill";
+import Blogs from "./components/Pages/Blogs";
+import Blogs2 from "./components/Pages/Blogs2";
+import Consultant from "./components/Pages/Consultant";
+import Technical from "./components/Pages/Technical";
+import Uncategorized from "./components/Pages/Uncategorized";
+import Satifiedblogs from "./components/Pages/Satifiedblogs";
 
 function Reload() {
   const path = useLocation();
@@ -46,6 +53,13 @@ function App() {
           <Route path="/businesscase" exact Component={Business} />
           <Route path="/clientele" exact Component={Clientele} />
           <Route path="/pricingmodels" exact Component={Pricing} />
+          <Route path="/windchill-consultants" exact Component={Windchill} />
+          <Route path="/blogs" exact Component={Blogs} />
+          <Route path="/blogspage2" exact Component={Blogs2} />
+          <Route path="/Consultant" exact Component={Consultant} />
+          <Route path="/Technical" exact Component={Technical} />
+          <Route path="/Uncategorized" exact Component={Uncategorized} />
+          <Route path="/satifiedblogs" exact Component={Satifiedblogs} />
         </Routes>
       </BrowserRouter>
     </>

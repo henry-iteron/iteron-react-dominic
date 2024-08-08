@@ -1,0 +1,123 @@
+.satified-blog-title h1{
+    font-family: montserrat;
+    font-size: 23px;
+    letter-spacing: 0.3px;
+    font-weight: 700;
+    word-wrap:break-word;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.satified-blog-title span {
+    font-family: montserrat;
+    color: #141414;
+    font-size: 14px;
+    width: 100%;
+}
+
+.satified-blog-title span a{
+    text-decoration: none;
+    color: #eeb013;
+    font-family: montserrat;
+    font-size: 14px;
+    width: 100%;
+}
+
+.satified-ul{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.satified-ul ul{
+    list-style: none;
+    padding-top: 10px;
+    display: flex;
+    border-top: 2px solid #efefef;
+    border-bottom: 2px solid #efefef;
+}
+
+.satified-ul li {
+    padding-right: 20px;
+     font-family: montserrat;
+     color: #6f6f6f;
+     font-size: 14px;
+     padding-bottom: 10px;
+}
+
+.satified-blog-title li a{
+    text-decoration: none;
+    color: #6f6f6f;
+}
+
+.satified-blog-title i{
+    padding-right: 5px;
+}
+
+.tag{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: montserrat;
+    font-size: 15px;
+}
+
+.form-profile{
+    display: flex;
+    gap: 30px;
+}
+
+.form-name{
+    align-content: center;
+}
+
+.form-name h4{
+    padding: 0;
+       width: 100%;
+       font-size: 14px;
+       color: #141414;
+       letter-spacing: 1px;
+       font-weight: 800px;   
+       font-family: montserrat;  
+}
+
+.comment-form{
+    padding-top: 40px;
+}
+
+.comment-form h3{
+    font-style: italic;
+    width: 100%;
+       font-size: 20px;
+       color: #141414;
+       font-weight: 800px;   
+       font-family: montserrat; 
+       padding-bottom: 10px; 
+       border-bottom: 1px solid #6f6f6f;
+}
+
+.form-inputs{
+    padding-top: 30px;
+    display: flex;
+}
+
+.form-inputs label{
+    width: 100%;
+    font-size: 12px;
+    color: #141414;
+    font-style: italic;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.form-inputs input{
+    padding: 0;
+    padding: 10px 20px;
+    background-color:white;
+    color: #141414;
+    border-radius: 0;
+    border: 1px solid #6f6f6f;
+    width: 100%;
+}
+
+.form-inputs input:placeholder-shown{
+    font-style: italic;
+}
