@@ -1,14 +1,14 @@
-import React, { useEffect } from "react";
+import React, { useRef, useState } from "react";
 import Marquee from "react-fast-marquee";
 import "./Home.css";
-import { Link, useNavigate} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import "aos/dist/aos.css";
 
-export const Home = () => {  
- 
-const navigate = useNavigate();
+export const Home = () => {
+  const navigate = useNavigate();
 
-const change = () => navigate("/Pricingmodels");
- 
+  const change = () => navigate("/Pricingmodels");
+  const nodeRef = useRef(null);
 
   return (
     <>
@@ -130,7 +130,7 @@ const change = () => navigate("/Pricingmodels");
               <div className="read">
                 <Link className="btn-link" to="/digitizes">
                   <i className="book fa-solid fa-book"></i> Read more
-                  </Link>
+                </Link>
               </div>
             </div>
           </div>
@@ -667,6 +667,76 @@ const change = () => navigate("/Pricingmodels");
         </div>
       </section>
 
+      <section className="client-review-box">
+        <div className="client-bg">
+          <div className="client-title">
+            <h2>Our Client Reviews </h2>
+          </div>
+
+          <div className="client-review-container">
+            <div className="client-review-container-bg">
+              <div className="comma">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+              <blockquote>
+                "I am working with ITERON for the past 1 year. Initially I was
+                bit worried on how the offshore modelling will work but to my
+                surprise the process standards and methodologies which ITERON
+                put in place helped us to work flawlessly with the offshore
+                Team. They are helping us with Application Development and
+                Support. The Team scales up and scales down depending on our
+                needs and this flexibility helps me to plan the Business Roadmap
+                well. Management is extremely committed to the success of the
+                Project and Goals."
+              </blockquote>
+              <div className="client-info">
+                <div>
+                  <h5>Mr.Bjorn</h5>
+                  <span>CEO | imagine Solutionn | Germany</span>
+                </div>
+              </div>
+              <div className="review-logo">
+                <img
+                  src="https://www.iterontech.com/wp-content/uploads/2018/12/Gotacase-400x200-70x70_c.jpg"
+                  alt=""
+                ></img>
+              </div>
+            </div>
+          </div>
+
+          <div className="client-review-container" >
+            <div className="client-review-container-bg">
+              <div className="comma">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+              <blockquote>
+                "I am working with ITERON for the past 1 year. Initially I was
+                bit worried on how the offshore modelling will work but to my
+                surprise the process standards and methodologies which ITERON
+                put in place helped us to work flawlessly with the offshore
+                Team. They are helping us with Application Development and
+                Support. The Team scales up and scales down depending on our
+                needs and this flexibility helps me to plan the Business Roadmap
+                well. Management is extremely committed to the success of the
+                Project and Goals."
+              </blockquote>
+              <div className="client-info">
+                <div>
+                  <h5>Mr.Bjorn</h5>
+                  <span>CEO | imagine Solutionn | Germany</span>
+                </div>
+              </div>
+              <div className="review-logo">
+                <img
+                  src="https://www.iterontech.com/wp-content/uploads/2018/12/Gotacase-400x200-70x70_c.jpg"
+                  alt=""
+                ></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="cost-models">
         <div className="approach-title">
           <h2 className="ap-name">Our Flexible Cost Models</h2>
@@ -700,7 +770,9 @@ const change = () => navigate("/Pricingmodels");
               </ul>
             </div>
             <div className="model-btn">
-              <button onClick={change} className="view-model">View more models</button>
+              <button onClick={change} className="view-model">
+                View more models
+              </button>
             </div>
           </div>
 
@@ -727,7 +799,9 @@ const change = () => navigate("/Pricingmodels");
               </ul>
             </div>
             <div className="model-btn">
-              <button onClick={change} className="view-model">View more models</button>
+              <button onClick={change} className="view-model">
+                View more models
+              </button>
             </div>
           </div>
 
@@ -754,7 +828,9 @@ const change = () => navigate("/Pricingmodels");
               </ul>
             </div>
             <div className="model-btn">
-              <button onClick={change} className="view-model">View more models</button>
+              <button onClick={change} className="view-model">
+                View more models
+              </button>
             </div>
           </div>
         </div>
@@ -893,97 +969,93 @@ const change = () => navigate("/Pricingmodels");
 
       <footer>
         <div className="footer-background">
-        <div className="footer-content">
-          <div className="asia">
-            <div className="country-name">
-              <h4>ASIA</h4>
+          <div className="footer-content">
+            <div className="asia">
+              <div className="country-name">
+                <h4>ASIA</h4>
+              </div>
+              <div className="coun-para">
+                <p>
+                  10/24 Lakshmipuram Extn
+                  <br></br>
+                  First Main Road
+                  <br></br>
+                  West Tambaram
+                  <br></br>
+                  India
+                  <br></br>
+                  +91 99406 40793
+                </p>
+              </div>
+              <div className="srilanka-para">
+                <p>
+                  Level 26/34 East Tower
+                  <br></br>
+                  World Trade Center, Colombo 1<br></br>
+                  Sri Lanka
+                  <br></br>
+                  +94(0)11 7430220
+                </p>
+              </div>
             </div>
-            <div className="coun-para">
-              <p>
-                10/24 Lakshmipuram Extn
-                <br></br>
-                First Main Road
-                <br></br>
-                West Tambaram
-                <br></br>
-                India
-                <br></br>
-                +91 99406 40793
-              </p>
-            </div>
-            <div className="srilanka-para">
-              <p>
-                Level 26/34 East Tower
-                <br></br>
-                World Trade Center, Colombo 1
-                <br></br>
-                Sri Lanka
-                <br></br>
-                +94(0)11 7430220
-              </p>
-            </div>
-          </div>
 
-          <div className="Europe">
-            <div className="country-name">
-              <h4>EUROPE</h4>
+            <div className="Europe">
+              <div className="country-name">
+                <h4>EUROPE</h4>
+              </div>
+              <div className="coun-para">
+                <p>
+                  Picassoplatz 4<br></br>
+                  CH-4052 Basel
+                  <br></br>
+                  Switzerland
+                  <br></br>
+                  +41 (0)61 272 95 95
+                </p>
+              </div>
             </div>
-            <div className="coun-para">
-              <p>
-                Picassoplatz 4
-                <br></br>
-                CH-4052 Basel
-                <br></br>
-                Switzerland
-                <br></br>
-                +41 (0)61 272 95 95
-              </p>
-            </div>
-          </div>
 
-          <div className="Australia">
-            <div className="country-name">
-              <h4>AUSTRALIA</h4>
+            <div className="Australia">
+              <div className="country-name">
+                <h4>AUSTRALIA</h4>
+              </div>
+              <div className="coun-para">
+                <p>Canberra</p>
+              </div>
             </div>
-            <div className="coun-para">
-              <p>Canberra</p>
-            </div>
-          </div>
 
-          <div className="usa">
-            <div className="country-name">
-              <h4>USA</h4>
+            <div className="usa">
+              <div className="country-name">
+                <h4>USA</h4>
+              </div>
+              <div className="coun-para">
+                <p>
+                  700 N St.Mary's Street
+                  <br></br>
+                  Suite 1400
+                  <br></br>
+                  San Antonio
+                  <br></br>
+                  TX 78205
+                  <br></br>
+                  866-611-6228
+                </p>
+              </div>
             </div>
-            <div className="coun-para">
-              <p>
-                700 N St.Mary's Street
-                <br></br>
-                Suite 1400
-                <br></br>
-                San Antonio
-                <br></br>
-                TX 78205
-                <br></br>
-                866-611-6228
-              </p>
-            </div>
-          </div>
           </div>
         </div>
-
 
         <div className="bottom-strip">
           <div className="bottom-container">
             <div className="bottom-para">
-                 <p>
-                  <span className="s3">
-                    <a>PRIVACY POLICY</a>
-                  </span>
-                  <span className="s4">@ 2021  ITERON All Rights Reserved</span>
-                 </p>
+              <p>
+                <span className="s3">
+                  <a>PRIVACY POLICY</a>
+                </span>
+                <span className="s4">@ 2021 ITERON All Rights Reserved</span>
+              </p>
             </div>
           </div>
-
         </div>
       </footer>
     </>
